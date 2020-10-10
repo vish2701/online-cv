@@ -58,7 +58,7 @@ education:
     - degree: MSc in Systems and Control
       university: Delft University of Technology
       time: 2018 - 2020
-      details: |
+      details:
         Thesis: Hierarchical Incremental Learning using Radial Basis Function
         Networks for taxonomy-based data classification.
 
