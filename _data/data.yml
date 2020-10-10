@@ -109,29 +109,6 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-MSc thesis:
-    title: Hierarchical Incremental Learning using Radial Basis Function
-           Networks for taxonomy-based data classification.
-    summary: Convolutional Neural Networks used in computer vision tasks traditionally
-             use a fixed dataset and the model is deployed as it is after training. 
-             Adding new information to the already trained data set presents quite some
-             challenges due to large training time and sensitivity of hyper-parameters tuning. 
-             Data is constantly evolving and the models are required to adapt to changes.  
-             One such example is road signs which are not constant all over the world and changes 
-             with countries. To tackle the issues of large training time and retraining in cases 
-             when new information becomes available, I propose a new method which uses 
-             Radial Basis Function(RBF) Neural networks on a neuromorphic chip. The RBF network can grow, 
-             learn and adapt as new data becomes available in a tree-like fashion to accommodate new classes 
-             of data while retaining the property of distinguishing previously trained classes. 
-             As the network is deployed on FPGA, it will learn new classes which can be shared so that 
-             knowledge from different hardware can be combined together to form a shared knowledge base. 
-             The network organizes the available data into hierarchical classes and increases its reach when 
-             new information is available. This completely eliminates the process of retraining thereby 
-             significantly reducing training times and computational costs.
-    contribution: 
-         -Develop a hierarchical classification method to categorize road signs.  
-         -Add new information to the hierarchical network without altering the previously trained model.
-         -Generalize this approach to accommodate almost any taxonomy based on classification indicators.
 projects:
     title: Projects
     intro: >
