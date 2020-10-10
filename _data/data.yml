@@ -107,7 +107,6 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-
 projects:
     title: Projects
     intro: >
@@ -115,7 +114,7 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Control of a two degree of freedom Helicopter model
+      - title: Control
         link: "#"
         tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC"
 
