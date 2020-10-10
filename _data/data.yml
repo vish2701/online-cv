@@ -107,6 +107,20 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+thesis:
+    - role: Hierarchical Incremental Learning using Radial Basis Function
+            Networks for taxonomy-based data classification
+
+      time: July, 2019 - October, 2019
+      company: Mainblades Inspections, The Hague, Netherlands
+      details: |
+        I was primarily responsible for improving the control and navigation pipeline
+        for a DJI Matrice 200 used for aircraft inspections. My major contributions included:
+          - Sampling based trajectory control with cubic spline interpolation. This was an improvement over the 
+            existing waypoint control algorithm. I was able to reduce the destination overshoot by 2.5% and generate 
+            smoother motion.
+          - Adapted the existing Non-linear Model predictive controller to ACADO Toolkit framework using qpOASES solver.
+            Achieved better velocity control with improved robustness towards inaccurate localization data. 
 projects:
     title: Projects
     intro: >

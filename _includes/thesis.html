@@ -1,0 +1,41 @@
+{% assign thesis = site.data.data.thesis %}
+{% if thesis %}
+<section class="section thesis-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    MSc Thesis
+  </h2>
+
+  {% for th in thesis %}
+  <div class="item">
+
+    <div class="meta">
+      <h3 class="job-title">{{ th.role }}</h3>
+      <div class="upper-row">
+        <div class="company">{{ th.company }}</div>
+
+        <div class="time">{{ th.time }}</div>
+      </div>
+      <!--//upper-row-->
+
+
+    </div>
+    <!--//meta-->
+
+    {% if th.details %}
+    <div class="details">
+      {{ th.details | markdownify }}
+    </div>
+    <!--//details-->
+    {% endif %}
+
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
+{% endif %}
