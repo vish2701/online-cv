@@ -60,10 +60,8 @@ education:
       time: 2018 - 2020
       details:
         Thesis: Hierarchical Incremental Learning using Radial Basis Function
-        Networks for taxonomy-based data classification.
-
-          - Bullet point
-          - Bullet point
+                Networks for taxonomy-based data classification.
+                
     - degree: B.Tech in Mechatronics
       university: Manipal University Jaipur
       time: 2014 - 2018
