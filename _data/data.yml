@@ -58,9 +58,9 @@ education:
     - degree: MSc in Systems and Control
       university: Delft University of Technology
       time: 2018 - 2020
-      details:
-        Thesis: Hierarchical Incremental Learning using Radial Basis Function
-                Networks for taxonomy-based data classification.
+      details: |
+         Hierarchical Incremental Learning using Radial Basis Function
+         Networks for taxonomy-based data classification.
                 
     - degree: B.Tech in Mechatronics
       university: Manipal University Jaipur
@@ -116,11 +116,11 @@ projects:
     assignments:
       - title: Control
         link: "#"
-        tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC"
+        tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC."
 
-      - title: RoboticArm
+      - title: Robotic
         link: "#"
-        tagline: "6 Degree of freedom robotic arm on wheels to identify and pick objects of certain colour"
+        tagline: "6 Degree of freedom robotic arm on wheels to identify and pick objects of certain colour."
 
       - title: Atom
         link: "#"
