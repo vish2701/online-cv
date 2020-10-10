@@ -15,7 +15,7 @@ sidebar:
     email: vishwas.iyer11@gmail.com
     phone: 012 345 6789
     website: blog.webjeda.com #do not add http://
-    linkedin: www.linkedin.com/in/vishwas-iyer
+    linkedin: vishwas-iyer
     github: vish2701
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -85,17 +85,19 @@ experiences:
           - Sampling based trajectory control with cubic spline interpolation. This was an improvement over the 
             existing waypoint control algorithm. I was able to reduce the destination overshoot by 2.5% and generate 
             smoother motion.
-          - Adapted the existing Non-linear Model predictive controller to ACADO Toolkit framework using QPOASES solver.
+          - Adapted the existing Non-linear Model predictive controller to ACADO Toolkit framework using qpOASES solver.
             Achieved better velocity control with improved robustness towards inaccurate localization data.
     - role: Robotics and Motion Intern
       time: Jan, 2018 – April, 2018
       company: ABB, Bengaluru, India
       details: |
-        Being in the R&D department for robotics, I was responsible for improving the end user experience for SmartComponent
+        Being in the R&D department for robotics, I was responsible to come up with a customer friendly approach to modify
+        SmartComponent logic in RobotStudio.
         in RobotStudio.
-          - Proposed a sparse lookup table based approach to simplify the input/output logic of SmartComponent in RobotStudio.
-            This would provide an easier 
-          - Bullet point
+          - Proposed a sparse lookup table based approach to simplify the input/output logic of SmartComponent. 
+            This would allow customers to make modifications to SmartComponent functionalities without depending on the manufacturer.
+          - Successfully defended my approach against an existing FPGA based SmartComponent logic which required customers to reprogram the FPGA
+            to make any modifications.
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -107,6 +109,29 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+MSc thesis:
+    title: Hierarchical Incremental Learning using Radial Basis Function
+           Networks for taxonomy-based data classification.
+    summary: Convolutional Neural Networks used in computer vision tasks traditionally
+             use a fixed dataset and the model is deployed as it is after training. 
+             Adding new information to the already trained data set presents quite some
+             challenges due to large training time and sensitivity of hyper-parameters tuning. 
+             Data is constantly evolving and the models are required to adapt to changes.  
+             One such example is road signs which are not constant all over the world and changes 
+             with countries. To tackle the issues of large training time and retraining in cases 
+             when new information becomes available, I propose a new method which uses 
+             Radial Basis Function(RBF) Neural networks on a neuromorphic chip. The RBF network can grow, 
+             learn and adapt as new data becomes available in a tree-like fashion to accommodate new classes 
+             of data while retaining the property of distinguishing previously trained classes. 
+             As the network is deployed on FPGA, it will learn new classes which can be shared so that 
+             knowledge from different hardware can be combined together to form a shared knowledge base. 
+             The network organizes the available data into hierarchical classes and increases its reach when 
+             new information is available. This completely eliminates the process of retraining thereby 
+             significantly reducing training times and computational costs.
+    contribution: 
+         -Develop a hierarchical classification method to categorize road signs.  
+         -Add new information to the hierarchical network without altering the previously trained model.
+         -Generalize this approach to accommodate almost any taxonomy based on classification indicators.
 projects:
     title: Projects
     intro: >
@@ -114,13 +139,9 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Control of a two degree of freedom Helicopter model
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC"
 
       - title: Tempo
         link: "#"
