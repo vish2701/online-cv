@@ -114,13 +114,13 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Control of Helicopter Model
+      - title: Control
         link: "#"
         tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC"
 
-      - title: Tempo
+      - title: RoboticArm
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "6 Degree of freedom robotic arm on wheels to identify and pick objects of certain colour"
 
       - title: Atom
         link: "#"
