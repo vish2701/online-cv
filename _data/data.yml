@@ -7,16 +7,16 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Vishwas Iyer
+    tagline: MSc in Systems and Control
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: vishwas.iyer11@gmail.com
     phone: 012 345 6789
     website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    linkedin: www.linkedin.com/in/vishwas-iyer
+    github: vish2701
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -26,49 +26,47 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Tamil
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Music - Piano
         link:
 
-      - item: Snowboarding
+      - item: Badminton and Volleyball
+        link:
+    
+      - item: hiking and Biking
         link:
 
       - item: Cooking
         link:
+        
+      - item: Travelling
+        link:
 
 career-profile:
-    title: Career Profile
+    title: Career Interests
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a robotics enthusiast determined to work in the field of Self Adaptive Networks, 
+      Transfer learning, Knowledge-based controllers, Knowledge adaption and computer vision
+      for different classes of robots.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Systems and Control
+      university: Delft University of Technology
+      time: 2018 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Thesis: Hierarchical Incremental Learning using Radial Basis Function
+        Networks for taxonomy-based data classification.
+
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: B.Tech in Mechatronics
+      university: Manipal University Jaipur
+      time: 2014 - 2018
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -78,31 +76,25 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Robotics Software Intern
+      time: July, 2019 - October, 2019
+      company: Mainblades Inspections, The Hague, Netherlands
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        I was primarily responsible for improving the control and navigation pipeline
+        for a DJI Matrice 200 used for aircraft inspections. My major contributions included:
+          - Sampling based trajectory control with cubic spline interpolation. This was an improvement over the 
+            existing waypoint control algorithm. I was able to reduce the destination overshoot by 2.5% and generate 
+            smoother motion.
+          - Adapted the existing Non-linear Model predictive controller to ACADO Toolkit framework using QPOASES solver.
+            Achieved better velocity control with improved robustness towards inaccurate localization data.
+    - role: Robotics and Motion Intern
+      time: Jan, 2018 – April, 2018
+      company: ABB, Bengaluru, India
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
+        Being in the R&D department for robotics, I was responsible for improving the end user experience for SmartComponent
+        in RobotStudio.
+          - Proposed a sparse lookup table based approach to simplify the input/output logic of SmartComponent in RobotStudio.
+            This would provide an easier 
           - Bullet point
     - role: UI Developer
       time: 2012 - 2014
