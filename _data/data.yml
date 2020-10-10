@@ -114,7 +114,7 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Control
+      - title: Control of Helicopter Model
         link: "#"
         tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC"
 
