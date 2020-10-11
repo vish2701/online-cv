@@ -279,10 +279,10 @@ p {
 
     .skillset {
         .item {
-            display: flex;
-            flex-basis: 100px;
+            display: inline-block;
+            width: 100px;
             height: 100px;
-            margin: 10px;
+            // margin-top: 0px;
             // margin-bottom: 1px;
             // overflow: hidden;
         }
