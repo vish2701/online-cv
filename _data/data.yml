@@ -163,17 +163,17 @@ skills:
       - title: Robotics
         tagline: ROS & ROS2
 
+      - title: Libraries
+        tagline: OpenCV, scikit-learn, scikit-image
+      
       - title: Other
         tagline: MATLAB & Simulink
 
-      - title: Embedded
-        tagline: 95%
+      - title: Embedded Hardware
+        tagline: NeuroShield, Raspberry Pi, Arduino
 
-      - title: Ruby on Rails
-        tagline: 85%
-
-      - title: Sketch & Photoshop
-        tagline: 60%
+      - title: Operating Systems
+        tagline: Linux, MacOS, Windows
 
 
 # footer: >
