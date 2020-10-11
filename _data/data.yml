@@ -139,7 +139,7 @@ skills:
       - title: Programming skills
         tagline: Python, C++, Embedded C
       - title: Robotics
-        tagline: ROS, ROS2, Gazebo, Rviz, RobotStudio
+        tagline: ROS, ROS2, Gazebo, Rviz, ABB RobotStudio
       - title: Computer Vision Libraries
         tagline: OpenCV, scikit-image 
       - title: Machine Learning Libraries
