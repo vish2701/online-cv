@@ -166,20 +166,20 @@ publications:
       authors: Edgar T. Irons
       conference: "Comm. ACM 4 (1961), 51–55"
 skills:
-    title: Skills &amp; Proficiency
+    - type: Programming
+      skillset: Python & C++
 
-    toolset:
-      - name: Python & C++
+      # - name: Python & C++
 
-      - name: ROS & ROS2
+      # - name: ROS & ROS2
 
-      - name: Gazebo, Rviz, OpenCV, scikit-learn
+      # - name: Gazebo, Rviz, OpenCV, scikit-learn
 
-      - name: git
+      # - name: git
 
-      - name: MATLAB & Simulink
+      # - name: MATLAB & Simulink
 
-      - name: Sketch & Photoshop
+      # - name: Sketch & Photoshop
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
