@@ -157,22 +157,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - title: Programming skills
+        tagline: Python & Django
+
+      - title: Javascript & jQuery
         tagline: 98%
 
-      - name: Javascript & jQuery
+      - title: Angular
         tagline: 98%
 
-      - name: Angular
-        tagline: 98%
-
-      - name: HTML5 & CSS
+      - title: HTML5 & CSS
         tagline: 95%
 
-      - name: Ruby on Rails
+      - title: Ruby on Rails
         tagline: 85%
 
-      - name: Sketch & Photoshop
+      - title: Sketch & Photoshop
         tagline: 60%
 
 
