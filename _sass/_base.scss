@@ -255,19 +255,21 @@ p {
         }
     }
 
-    .skills {
+    .skillset {
         .item {
             margin-bottom: 15px;
             overflow: hidden;
         }
-        .skills-title {
+        .skillset-title {
             font-size: 14px;
+            font-weight: 400;
+            color: $text-color;
             margin-top: 0;
             margin-bottom: 0;
         }
-        .skills-tagline {
-            height: 12px;
-            background: $smoky-white;
+        .skillset-tagline {
+            font-size: 12px;
+            margin-bottom: 5px;
         }
     }   
 }
