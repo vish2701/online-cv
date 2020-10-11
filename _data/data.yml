@@ -158,13 +158,13 @@ skills:
 
     toolset:
       - title: Programming skills
-        tagline: Python & C++
+        tagline: Python, C++
       - title: Robotics
-        tagline: ROS & ROS2
+        tagline: ROS, ROS2
       - title: Libraries
         tagline: OpenCV, scikit-learn, scikit-image     
       - title: Other
-        tagline: MATLAB & Simulink
+        tagline: MATLAB, Simulink
       - title: Embedded Hardware
         tagline: NeuroShield, Raspberry Pi, Arduino
       - title: Operating Systems
