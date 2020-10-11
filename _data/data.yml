@@ -155,23 +155,26 @@ publications:
       authors: Edgar T. Irons
       conference: "Comm. ACM 4 (1961), 51–55"
 skills:
-    - type: Programming
-      skillset: Python & C++
+    title: Skills &amp; Proficiency
 
-    - type: Robotics
-      skillset: ROS, ROS2, Gazebo, Rviz
+    toolset:
+      - name: Python & Django
+        level: 98%
 
-    - type: Libraries
-      skillset: OpenCV, scikit-learn, scikit-image
+      - name: Javascript & jQuery
+        level: 98%
 
-    - type: Embedded
-      skillset: NeuroShield, Arduino, Raspberry Pi 
+      - name: Angular
+        level: 98%
 
-    - type: Others
-      skillset: git, MATLAB, Simulink
+      - name: HTML5 & CSS
+        level: 95%
 
-    - type: Operating Systems
-      skillset: Linux, MacOS, Windows 
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
 
 
 # footer: >
