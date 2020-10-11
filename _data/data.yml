@@ -168,7 +168,7 @@ skills:
 
     toolsetright:
       - title: Embedded Hardware
-        tagline: NeuroShield, Raspberry Pi, Arduino
+        tagline: NeuroShield, Raspberry Pi
       - title: Operating Systems
         tagline: Linux, MacOS, Windows   
 
