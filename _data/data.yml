@@ -158,7 +158,7 @@ skills:
 
     toolset:
       - title: Programming skills
-        tagline: Python & Django
+        tagline: Python & C++
 
       - title: Javascript & jQuery
         tagline: 98%
