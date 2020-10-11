@@ -305,9 +305,7 @@ p {
 
     .skillsetright {
         width: 360px;
-        float: right;
         overflow: hidden;
-
         .item {
             margin-top: 0px;
             margin-bottom: 3px;
@@ -329,4 +327,25 @@ p {
             color: $text-color;
         }
     }
-}   
+}
+
+
+
+
+
+
+
+.footer {
+    padding-top: 30px;
+
+    .copyright {
+        line-height: 1.6;
+        color: $text-color-secondary;
+        font-size: 13px;
+    }
+
+    .fa-heart {
+        color: $heart;
+    }
+
+}
