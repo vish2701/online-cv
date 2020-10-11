@@ -164,7 +164,7 @@ skills:
       - title: Libraries
         tagline: OpenCV, scikit-learn, scikit-image     
       - title: Other
-        tagline: MATLAB
+        tagline: MATLAB, Simulink
     toolsetright:
       - title: Embedded Hardware
         tagline: NeuroShield, Raspberry Pi
