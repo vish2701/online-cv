@@ -97,17 +97,6 @@ experiences:
           This would allow customers to make modifications to SmartComponent functionalities without depending on the manufacturer.
         - Successfully defended my approach against an existing FPGA based SmartComponent logic which required customers to reprogram the FPGA
           to make any modifications.
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
 thesis:
   - role: Hierarchical Incremental Learning using Radial Basis Function
       Networks for taxonomy-based data classification
@@ -128,21 +117,21 @@ projects:
     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: Control
+    - title: SJTU Drone
       link: "#"
-      tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC."
+      tagline: "Landing on Aruco marker using PID controller"
 
-    - title: Robotic
+    - title: Position control of a Quanser helicopter model
       link: "#"
-      tagline: "6 Degree of freedom robotic arm on wheels to identify and pick objects of certain colour."
+      tagline: " Implemented LQR and MPC in MATLAB and Simulink "
 
-    - title: Roll angle control
+    - title: Inverted Pendulum with Reinforcement leearning
       link: "#"
-      tagline: "Control of roll angle of a mini aircraft."
+      tagline: "MATLAB"
 
-    - title: Obstacle
+    - title: Robot Vision
       link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      tagline: "Bundle Adjustment"
 
 publications:
   title: Publications
@@ -171,17 +160,19 @@ skills:
 
     - type: Robotics
       skillset: ROS, ROS2, Gazebo, Rviz
-      # - name: Python & C++
 
-      # - name: ROS & ROS2
+    - type: Libraries
+      skillset: OpenCV, scikit-learn, scikit-image
 
-      # - name: Gazebo, Rviz, OpenCV, scikit-learn
+    - type: Embedded
+      skillset: NeuroShield, Arduino, Raspberry Pi 
 
-      # - name: git
+    - type: Others
+      skillset: git, MATLAB, Simulink
 
-      # - name: MATLAB & Simulink
+    - type: Operating Systems
+      skillset: Linux, MacOS, Windows 
 
-      # - name: Sketch & Photoshop
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
