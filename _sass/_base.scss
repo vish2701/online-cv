@@ -278,17 +278,19 @@ p {
     }
 
     .skillset {
+        float: left;
+        width: 360px;
+
         .item {
-            display: inline-block;
-            width: 100px;
-            height: 50px;
-            margin: 10px;
+            margin-top: 0px;
+            margin-bottom: 3px;
+            overflow: hidden;
         }
 
         .skill-title {
             font-size: 16px;
             font-weight: 400;
-            margin-top: 0px;
+            margin-top: 2px;
             margin-bottom: 0px;
             color: darken($theme-color, 15%);
         }
@@ -296,11 +298,38 @@ p {
         .meta {
             font-weight: 500;
             margin-bottom: 0px;
-            margin-top: 0;
+            margin-top: 1px;
             color: $text-color;
         }
     }
-}
+
+    .skillsetright {
+        width: 360px;
+        float: right;
+        overflow: hidden;
+
+        .item {
+            margin-top: 0px;
+            margin-bottom: 3px;
+            overflow: hidden;
+        }
+
+        .skill-title {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 2px;
+            margin-bottom: 0px;
+            color: darken($theme-color, 15%);
+        }
+
+        .meta {
+            font-weight: 500;
+            margin-bottom: 0px;
+            margin-top: 1px;
+            color: $text-color;
+        }
+    }
+}   
 
 .footer {
     padding-top: 30px;
