@@ -130,6 +130,9 @@ p {
         .item {
             margin-bottom: 15px;
             overflow: hidden;
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
         .type {
             font-size: 14px;
@@ -138,7 +141,7 @@ p {
         }
         .skillset {
             color: rgba(256, 256, 256, 0.6);
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 500;
             margin-top: 0;
             margin-bottom: 12px;

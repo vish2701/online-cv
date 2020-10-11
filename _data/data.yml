@@ -166,10 +166,10 @@ publications:
       authors: Edgar T. Irons
       conference: "Comm. ACM 4 (1961), 51–55"
 skills:
-    - type: Programming
+    - type: Programming-
       skillset: Python & C++
 
-    - type: Robotics
+    - type: Robotics-
       skillset: ROS, ROS2, Gazebo, Rviz
       # - name: Python & C++
 
