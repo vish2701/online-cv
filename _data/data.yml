@@ -25,6 +25,28 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
+    skills:
+      title: Skills
+
+      toolset:
+        - name: Python & C++
+          # level: 98%
+
+        - name: ROS & ROS2
+          # level: 98%
+
+        - name: Gazebo, Rviz, OpenCV, scikit-learn
+          # level: 98%
+
+        - name: git
+          # level: 95%
+
+        - name: MATLAB & Simulink
+          # level: 85%
+
+        - name: Sketch & Photoshop
+          # level: 60%  
+
     languages:
       - idiom: Tamil
         level: Native
@@ -110,17 +132,16 @@ experiences:
 thesis:
     - role: Hierarchical Incremental Learning using Radial Basis Function
             Networks for taxonomy-based data classification
-
-      time: July, 2019 - October, 2019
-      company: Mainblades Inspections, The Hague, Netherlands
+      time: November, 2019 - December, 2020
+      company: Delft Center for Systems and Control
       details: |
-        I was primarily responsible for improving the control and navigation pipeline
-        for a DJI Matrice 200 used for aircraft inspections. My major contributions included:
-          - Sampling based trajectory control with cubic spline interpolation. This was an improvement over the 
-            existing waypoint control algorithm. I was able to reduce the destination overshoot by 2.5% and generate 
-            smoother motion.
-          - Adapted the existing Non-linear Model predictive controller to ACADO Toolkit framework using qpOASES solver.
-            Achieved better velocity control with improved robustness towards inaccurate localization data. 
+        To tackle the issues of large training time and retraining in cases when new information becomes available, 
+        I propose a new method which uses Radial Basis Function(RBF) Neural networks on a neuromorphic chip. 
+        The RBF network can grow, learn and adapt as new data becomes available in a tree-like fashion to accommodate 
+        new classes of data while retaining the property of distinguishing previously trained classes. 
+          - The above method is catered to categorize road signs as a test.  
+          - Add new information to the hierarchical network without altering the previously trained model.
+          - Generalize this approach to accommodate almost any taxonomy based on classification indicators.
 projects:
     title: Projects
     intro: >
@@ -166,27 +187,27 @@ publications:
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+#     toolset:
+#       - name: Python & C++
+#         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+#       - name: ROS & ROS2
+#         level: 98%
 
-      - name: Angular
-        level: 98%
+#       - name: Gazebo, Rviz, OpenCV, scikit-learn
+#         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+#       - name: git
+#         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+#       - name: MATLAB & Simulink
+#         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+#       - name: Sketch & Photoshop
+#         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
