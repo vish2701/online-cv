@@ -28,6 +28,7 @@ sidebar:
     skills:
       title: Skills
 
+      toolset:
         - name: Python & C++
           # level: 98%
 
