@@ -169,6 +169,8 @@ skills:
     - type: Programming
       skillset: Python & C++
 
+    - type: Robotics
+      skillset: ROS, ROS2, Gazebo, Rviz
       # - name: Python & C++
 
       # - name: ROS & ROS2
