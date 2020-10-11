@@ -160,16 +160,16 @@ skills:
       - title: Programming skills
         tagline: Python, C++
       - title: Robotics
-        tagline: ROS, ROS2
+        tagline: ROS, ROS2, Gazebo, Rviz
       - title: Libraries
         tagline: OpenCV, scikit-learn, scikit-image     
       - title: Other
-        tagline: MATLAB, Simulink
+        tagline: git, MATLAB, Simulink
     toolsetright:
       - title: Embedded Hardware
-        tagline: NeuroShield, Raspberry Pi
+        tagline: NeuroShield, Raspberry Pi, Arduino
       - title: Operating Systems
-        tagline: Linux, MacOS   
+        tagline: Linux, MacOS, Windows   
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
