@@ -5,7 +5,7 @@
 sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
-  skills: True
+  skills: False
 
   # Profile information
   name: Vishwas Iyer
@@ -170,22 +170,16 @@ skills:
 
     toolset:
       - name: Python & C++
-        level: 98%
 
       - name: ROS & ROS2
-        level: 98%
 
       - name: Gazebo, Rviz, OpenCV, scikit-learn
-        level: 98%
 
       - name: git
-        level: 95%
 
       - name: MATLAB & Simulink
-        level: 85%
 
       - name: Sketch & Photoshop
-        level: 60%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
