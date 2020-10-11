@@ -169,6 +169,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - type: Coding
       - name: Python & C++
 
       - name: ROS & ROS2
