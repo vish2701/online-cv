@@ -139,7 +139,7 @@ skills:
       - title: Programming skills
         tagline: Python, C++, Embedded C
       - title: Robotics
-        tagline: RobotStudio, ROS, ROS2, Gazebo, Rviz
+        tagline: ROS, ROS2, Gazebo, Rviz, RobotStudio
       - title: Computer Vision Libraries
         tagline: OpenCV, scikit-image 
       - title: Machine Learning Libraries
@@ -149,7 +149,7 @@ skills:
       
     toolsetright:
       - title: Hardware Experience
-        tagline: NeuroShield, Raspberry Pi, Arduino, Atmega 16 & 32,
+        tagline: NeuroShield, Raspberry Pi, Arduino, Atmega 16 & 32 microcontroller
       - title: Embedded Software
         tagline: Arduino IDE
       - title: Operating Systems
