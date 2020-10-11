@@ -141,21 +141,21 @@ skills:
       - title: Robotics
         tagline: RobotStudio, ROS, ROS2, Gazebo, Rviz
       - title: Computer Vision Libraries
-        tagline: OpenCV, scikit-learn 
+        tagline: OpenCV, scikit-image 
       - title: Machine Learning Libraries
         tagline: Tensorflow, scikit-learn
       - title: Knowledge Representation Softwares
         tagline: Knowledgestudio, Image Knowledge Builder     
       
     toolsetright:
-      - title: Embedded Hardware
-        tagline: NeuroShield, Raspberry Pi, Arduino
+      - title: Hardware Experience
+        tagline: NeuroShield, Raspberry Pi, Arduino, Atmega 16 & 32,
       - title: Embedded Software
         tagline: Arduino IDE
       - title: Operating Systems
         tagline: Linux, MacOS, Windows
       - title: Other
-        tagline: git, MATLAB, LabView   
+        tagline: MATLAB, Simulink, LabView, git (version control)   
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
