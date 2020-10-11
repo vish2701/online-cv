@@ -15,12 +15,17 @@
     {% for skill in skills.toolset %}
     <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+      <span class="level-title">
+      </span>
 
-      <div class="level-bar">
+      {% if skill.tagline %}
+      - <span class="skill-tagline">{{ skill.tagline }}</span>
+      {% endif %}
+
+      <!--<div class="level-skillset">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>--><!--//level-bar-->
 
     </div><!--//item-->
     {% endfor %}
