@@ -3,211 +3,189 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+  skills: True
 
-    # Profile information
-    name: Vishwas Iyer
-    tagline: MSc in Systems and Control
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Vishwas Iyer
+  tagline: MSc in Systems and Control
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: vishwas.iyer11@gmail.com
-    phone: +31 620521735
-    website: blog.webjeda.com #do not add http://
-    linkedin: vishwas-iyer
-    github: vish2701
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: vishwas.iyer11@gmail.com
+  phone: +31 620521735
+  website: blog.webjeda.com #do not add http://
+  linkedin: vishwas-iyer
+  github: vish2701
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: "@webjeda"
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    skills:
-      title: Skills
+  languages:
+    - idiom: Tamil
+      level: Native
 
-      toolset:
-        - name: Python & C++
-          # level: 98%
+    - idiom: English
+      level: Professional
 
-        - name: ROS & ROS2
-          # level: 98%
+  interests:
+    - item: Music - Piano
+      link:
 
-        - name: Gazebo, Rviz, OpenCV, scikit-learn
-          # level: 98%
+    - item: Badminton and Volleyball
+      link:
 
-        - name: git
-          # level: 95%
+    - item: hiking and Biking
+      link:
 
-        - name: MATLAB & Simulink
-          # level: 85%
+    - item: Cooking
+      link:
 
-        - name: Sketch & Photoshop
-          # level: 60%  
-
-    languages:
-      - idiom: Tamil
-        level: Native
-
-      - idiom: English
-        level: Professional
-
-    interests:
-      - item: Music - Piano
-        link:
-
-      - item: Badminton and Volleyball
-        link:
-    
-      - item: hiking and Biking
-        link:
-
-      - item: Cooking
-        link:
-        
-      - item: Travelling
-        link:
+    - item: Travelling
+      link:
 
 career-profile:
-    title: Career Interests
-    summary: |
-      I am a robotics enthusiast determined to work in the field of Self Adaptive Networks, 
-      Transfer learning, Knowledge-based controllers, Knowledge adaption and computer vision
-      for different classes of robots.
+  title: Career Interests
+  summary: |
+    I am a robotics enthusiast determined to work in the field of Self Adaptive Networks, 
+    Transfer learning, Knowledge-based controllers, Knowledge adaption and computer vision
+    for different classes of robots.
 education:
-    - degree: MSc in Systems and Control
-      university: Delft University of Technology
-      time: 2018 - 2020
-      details: |
-         Hierarchical Incremental Learning using Radial Basis Function
-         Networks for taxonomy-based data classification.
-                
-    - degree: B.Tech in Mechatronics
-      university: Manipal University Jaipur
-      time: 2014 - 2018
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - degree: MSc in Systems and Control
+    university: Delft University of Technology
+    time: 2018 - 2020
+    details: |
+      Hierarchical Incremental Learning using Radial Basis Function
+      Networks for taxonomy-based data classification.
+
+  - degree: B.Tech in Mechatronics
+    university: Manipal University Jaipur
+    time: 2014 - 2018
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
 experiences:
-    - role: Robotics Software Intern
-      time: July, 2019 - October, 2019
-      company: Mainblades Inspections, The Hague, Netherlands
-      details: |
-        I was primarily responsible for improving the control and navigation pipeline
-        for a DJI Matrice 200 used for aircraft inspections. My major contributions included:
-          - Sampling based trajectory control with cubic spline interpolation. This was an improvement over the 
-            existing waypoint control algorithm. I was able to reduce the destination overshoot by 2.5% and generate 
-            smoother motion.
-          - Adapted the existing Non-linear Model predictive controller to ACADO Toolkit framework using qpOASES solver.
-            Achieved better velocity control with improved robustness towards inaccurate localization data.
-    - role: Robotics and Motion Intern
-      time: Jan, 2018 – April, 2018
-      company: ABB, Bengaluru, India
-      details: |
-        Being in the R&D department for robotics, I was responsible to come up with a customer friendly approach to modify
-        SmartComponent logic in RobotStudio.
-        in RobotStudio.
-          - Proposed a sparse lookup table based approach to simplify the input/output logic of SmartComponent. 
-            This would allow customers to make modifications to SmartComponent functionalities without depending on the manufacturer.
-          - Successfully defended my approach against an existing FPGA based SmartComponent logic which required customers to reprogram the FPGA
-            to make any modifications.
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  - role: Robotics Software Intern
+    time: July, 2019 - October, 2019
+    company: Mainblades Inspections, The Hague, Netherlands
+    details: |
+      I was primarily responsible for improving the control and navigation pipeline
+      for a DJI Matrice 200 used for aircraft inspections. My major contributions included:
+        - Sampling based trajectory control with cubic spline interpolation. This was an improvement over the 
+          existing waypoint control algorithm. I was able to reduce the destination overshoot by 2.5% and generate 
+          smoother motion.
+        - Adapted the existing Non-linear Model predictive controller to ACADO Toolkit framework using qpOASES solver.
+          Achieved better velocity control with improved robustness towards inaccurate localization data.
+  - role: Robotics and Motion Intern
+    time: Jan, 2018 – April, 2018
+    company: ABB, Bengaluru, India
+    details: |
+      Being in the R&D department for robotics, I was responsible to come up with a customer friendly approach to modify
+      SmartComponent logic in RobotStudio.
+      in RobotStudio.
+        - Proposed a sparse lookup table based approach to simplify the input/output logic of SmartComponent. 
+          This would allow customers to make modifications to SmartComponent functionalities without depending on the manufacturer.
+        - Successfully defended my approach against an existing FPGA based SmartComponent logic which required customers to reprogram the FPGA
+          to make any modifications.
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
 thesis:
-    - role: Hierarchical Incremental Learning using Radial Basis Function
-            Networks for taxonomy-based data classification
-      time: November, 2019 - December, 2020
-      company: Delft Center for Systems and Control
-      details: |
-        To tackle the issues of large training time and retraining in cases when new information becomes available, 
-        I propose a new method which uses Radial Basis Function(RBF) Neural networks on a neuromorphic chip. 
-        The RBF network can grow, learn and adapt as new data becomes available in a tree-like fashion to accommodate 
-        new classes of data while retaining the property of distinguishing previously trained classes. 
-          - The above method is catered to categorize road signs as a test.  
-          - Add new information to the hierarchical network without altering the previously trained model.
-          - Generalize this approach to accommodate almost any taxonomy based on classification indicators.
+  - role: Hierarchical Incremental Learning using Radial Basis Function
+      Networks for taxonomy-based data classification
+    time: November, 2019 - December, 2020
+    company: Delft Center for Systems and Control
+    details: |
+      To tackle the issues of large training time and retraining in cases when new information becomes available, 
+      I propose a new method which uses Radial Basis Function(RBF) Neural networks on a neuromorphic chip. 
+      The RBF network can grow, learn and adapt as new data becomes available in a tree-like fashion to accommodate 
+      new classes of data while retaining the property of distinguishing previously trained classes. 
+        - The above method is catered to categorize road signs as a test.  
+        - Add new information to the hierarchical network without altering the previously trained model.
+        - Generalize this approach to accommodate almost any taxonomy based on classification indicators.
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Control
-        link: "#"
-        tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC."
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Control
+      link: "#"
+      tagline: "Position control of a Quanser helicopter model using 3 different controllers namely PID, LQR/LQI and MPC."
 
-      - title: Robotic
-        link: "#"
-        tagline: "6 Degree of freedom robotic arm on wheels to identify and pick objects of certain colour."
+    - title: Robotic
+      link: "#"
+      tagline: "6 Degree of freedom robotic arm on wheels to identify and pick objects of certain colour."
 
-      - title: Roll angle control
-        link: "#"
-        tagline: "Control of roll angle of a mini aircraft."
+    - title: Roll angle control
+      link: "#"
+      tagline: "Control of roll angle of a mini aircraft."
 
-      - title: Obstacle
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Obstacle
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: The Art of Computer Programming
+      link: "#"
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      link: "#"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: A syntax directed compiler for Algol 60
+      link: "#"
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
+skills:
+    title: Skills &amp; Proficiency
 
-# skills:
-#     title: Skills &amp; Proficiency
+    toolset:
+      - name: Python & C++
+        level: 98%
 
-#     toolset:
-#       - name: Python & C++
-#         level: 98%
+      - name: ROS & ROS2
+        level: 98%
 
-#       - name: ROS & ROS2
-#         level: 98%
+      - name: Gazebo, Rviz, OpenCV, scikit-learn
+        level: 98%
 
-#       - name: Gazebo, Rviz, OpenCV, scikit-learn
-#         level: 98%
+      - name: git
+        level: 95%
 
-#       - name: git
-#         level: 95%
+      - name: MATLAB & Simulink
+        level: 85%
 
-#       - name: MATLAB & Simulink
-#         level: 85%
-
-#       - name: Sketch & Photoshop
-#         level: 60%
+      - name: Sketch & Photoshop
+        level: 60%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
