@@ -169,9 +169,10 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - type: Coding
+      - type: Programming
       - name: Python & C++
 
+      - type: Robotics
       - name: ROS & ROS2
 
       - name: Gazebo, Rviz, OpenCV, scikit-learn
