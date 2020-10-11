@@ -160,7 +160,7 @@ skills:
       - title: Programming skills
         tagline: Python, C++
       - title: Robotics
-        tagline: ROS, ROS2, Gazebo
+        tagline: ROS, ROS2
       - title: Libraries
         tagline: OpenCV, scikit-learn, scikit-image     
       - title: Other
