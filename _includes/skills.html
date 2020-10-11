@@ -14,8 +14,8 @@
     </div><!--//item-->
     {% endfor %}
 
-  </div><!--//education-container-->
-  <!-- {% else %}
+  </div><!--//skills-container-->
+  {% else %}
   <section class="section skills-section">
 
     <h2 class="section-title">
@@ -33,14 +33,14 @@
 
         <div class="upper-row">
           <h3 class="type">{{ skill.type }}</h3>
-          <div class="skillset">{{ skill.skillset }}</div> -->
-        <!--</div>--><!--//upper-row-->
+          <div class="skillset">{{ skill.skillset }}</div>
+        </div><!--//upper-row-->
 
-      <!--</div>--><!--//meta-->
+      </div><!--//meta-->
 
-    <!--</div>--><!--//item-->
-    <!--{% endfor %}-->
+    </div><!--//item-->
+    {% endfor %}
 
-  <!--</section>--><!--//section-->
+  </section><!--//section-->
   {% endif %}
 {% endif %}
