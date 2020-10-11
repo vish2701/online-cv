@@ -153,24 +153,24 @@ publications:
       link: "#"
       authors: Edgar T. Irons
       conference: "Comm. ACM 4 (1961), 51–55"
-skills:
-    title: Skills
+# skills:
+#     title: Skills
 
-    toolset:
-      - title: Programming skills
-        tagline: Python, C++
-      - title: Robotics
-        tagline: ROS, ROS2
-      - title: Libraries
-        tagline: OpenCV, scikit-learn, scikit-image     
-      - title: Other
-        tagline: MATLAB, Simulink
+#     toolset:
+#       - title: Programming skills
+#         tagline: Python, C++
+#       - title: Robotics
+#         tagline: ROS, ROS2
+#       - title: Libraries
+#         tagline: OpenCV, scikit-learn, scikit-image     
+#       - title: Other
+#         tagline: MATLAB, Simulink
 
-    toolsetright:
-      - title: Embedded Hardware
-        tagline: NeuroShield, Raspberry Pi
-      - title: Operating Systems
-        tagline: Linux, MacOS, Windows   
+#     toolsetright:
+#       - title: Embedded Hardware
+#         tagline: NeuroShield, Raspberry Pi
+#       - title: Operating Systems
+#         tagline: Linux, MacOS, Windows   
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
