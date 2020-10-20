@@ -114,11 +114,11 @@ projects:
   assignments:
     - title: Precision Landing Controller
       link: "https://gitlab.com/vishwas.iyer11/sjtu_aruco"
-      tagline: "Locate and land on an Aruco marker with position and orientation corrrection"
+      tagline: "Locate and land on an Aruco marker with position and orientation corrrection."
 
     - title: Position control of a Quanser helicopter model
       link: "#"
-      tagline: " Implemented LQR and MPC in MATLAB and Simulink "
+      tagline: " Implemented LQR and MPC in MATLAB and Simulink. "
 
 skills:
     title: Skills
