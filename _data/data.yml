@@ -113,7 +113,7 @@ projects:
   title: Projects
   assignments:
     - title: Precision Landing Controller
-      link: "https://gitlab.com/vishwas.iyer11/sjtu_aruco"
+      link: "https://github.com/Psi-Bots/drone_simulation"
       tagline: "Locate and land on an Aruco marker with position and orientation corrrection."
 
     - title: Position control of a Quanser helicopter model
