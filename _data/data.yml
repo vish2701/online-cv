@@ -14,13 +14,12 @@ sidebar:
   # Sidebar links
   email: vishwas.iyer11@gmail.com
   phone: +31 620521735
-  website: blog.webjeda.com #do not add http://
   linkedin: vishwas-iyer
   github: vish2701
   telegram: # add your nickname without '@' sign
-  gitlab:
+  gitlab: http://gitlab.com/vishwas.iyer11
   bitbucket:
-  twitter: "@webjeda"
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -39,7 +38,7 @@ sidebar:
     - item: Badminton and Volleyball
       link:
 
-    - item: hiking and Biking
+    - item: Biking
       link:
 
     - item: Cooking
@@ -97,8 +96,8 @@ experiences:
         - Successfully defended my approach against an existing FPGA based SmartComponent logic which required customers to reprogram the FPGA
           to make any modifications.
 thesis:
-  - role: Hierarchical Incremental Learning using Radial Basis Function
-      Networks for taxonomy-based data classification
+  - role: Knowledge Adaption and Hierarchical Incremental Learning using Radial Basis Function
+      Networks for taxonomy-based data classification.
     time: November, 2019 - December, 2020
     company: Delft Center for Systems and Control
     details: |
@@ -109,28 +108,17 @@ thesis:
         - The above method is catered to categorize road signs as a test.  
         - Add new information to the hierarchical network without altering the previously trained model.
         - Generalize this approach to accommodate almost any taxonomy based on classification indicators.
+        - Introduce uncertainty in the neural network for robust classification.
 projects:
   title: Projects
-  intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: SJTU Drone
-      link: "#"
-      tagline: "Landing on Aruco marker using PID controller"
+    - title: Precision Landing Controller
+      link: "https://gitlab.com/vishwas.iyer11/sjtu_aruco"
+      tagline: "Locate and land on an Aruco marker with position and orientation corrrection"
 
     - title: Position control of a Quanser helicopter model
       link: "#"
       tagline: " Implemented LQR and MPC in MATLAB and Simulink "
-
-    - title: Inverted Pendulum with Reinforcement leearning
-      link: "#"
-      tagline: "MATLAB"
-
-    - title: Robot Vision
-      link: "#"
-      tagline: "Bundle Adjustment"
 
 skills:
     title: Skills
