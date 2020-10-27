@@ -90,7 +90,6 @@ experiences:
     details: |
       Being in the R&D department for robotics, I was responsible to come up with a customer friendly approach to modify
       SmartComponent logic in RobotStudio.
-      in RobotStudio.
         - Proposed a sparse lookup table based approach to simplify the input/output logic of SmartComponent. 
           This would allow customers to make modifications to SmartComponent functionalities without depending on the manufacturer.
         - Successfully defended my approach against an existing FPGA based SmartComponent logic which required customers to reprogram the FPGA
