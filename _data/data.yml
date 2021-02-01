@@ -103,8 +103,7 @@ experiences:
         - Successfully defended my approach against an existing FPGA based SmartComponent logic which required customers to reprogram the FPGA
           to make any modifications.
 thesis:
-  - role: Knowledge Adaption and Hierarchical Incremental Learning using Radial Basis Function
-      Networks for taxonomy-based data classification.
+  - role: Incremental Hierarchical Learning using Radial Basis Function for Taxonomy based data.
     time: November, 2019 - December, 2020
     company: Delft Center for Systems and Control
     details: |
