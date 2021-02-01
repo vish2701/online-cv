@@ -104,11 +104,11 @@ experiences:
           to make any modifications.
 thesis:
   - role: Incremental Hierarchical Learning using Radial Basis Function for Taxonomy based data.
-    time: November, 2019 - December, 2020
+    time: November, 2019 - January, 2021
     company: Delft Center for Systems and Control
     details: |
       To tackle the issues of large training time and retraining in cases when new information becomes available, 
-      I propose a new method which uses Radial Basis Function(RBF) Neural networks on a neuromorphic chip. 
+      I propose a an end-to-end neural network architecture on the NM500 neuromorphic chip using an incremental hierarchical learning approach. 
       The RBF network can grow, learn and adapt as new data becomes available in a tree-like fashion to accommodate 
       new classes of data while retaining the property of distinguishing previously trained classes. 
         - The above method is catered to categorize road signs as a test.  
