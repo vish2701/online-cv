@@ -73,6 +73,14 @@ education:
         - Bullet point
         - Bullet point
 experiences:
+  - role: Robotics Engineer
+    time: November, 2020 - Present
+    company: JetBrains Expo BV, Amsterdam, Netherlands
+    details: |
+      Responsible for developing applications and controllers for different robots. Classes of robots include:
+        - Mobile robots
+        - Robotic manipulators
+        - Swarm robots     
   - role: Robotics Software Intern
     time: July, 2019 - October, 2019
     company: Mainblades Inspections, The Hague, Netherlands
